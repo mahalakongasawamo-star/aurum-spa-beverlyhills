@@ -15,7 +15,8 @@
       "Bash(python3 \"D:/Claude/3kimbrandesign/apply_aurum.py\")",
       "Bash(gh auth *)",
       "Bash(git --version)",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(python3 \"D:/Claude/3kimbrandesign/update_works.py\")"
     ]
   }
 }
