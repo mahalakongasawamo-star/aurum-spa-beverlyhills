@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python --version 2>$null)",
+      "PowerShell(node --version 2>$null)",
+      "PowerShell(python -c \"import requests, bs4; print\\('OK'\\)\" 2>&1)",
+      "PowerShell(python \"D:/Claude/3kimbrandesign/mirror_site.py\" 2>&1)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -sO \"https://kimbrandesign.com/_astro/index.CB87Sc6I.js\")",
+      "Bash(curl -sO \"https://kimbrandesign.com/_astro/ScrollTrigger.Cv03IO65.js\")",
+      "Bash(curl -sO \"https://kimbrandesign.com/_astro/DrawSVGPlugin.hRHa1nOD.js\")",
+      "Bash(curl -sO \"https://kimbrandesign.com/_astro/SplitText.BKPdh3YK.js\")",
+      "Bash(start powershell *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 \"D:/Claude/3kimbrandesign/apply_aurum.py\")",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(gh repo *)"
+    ]
+  }
+}
