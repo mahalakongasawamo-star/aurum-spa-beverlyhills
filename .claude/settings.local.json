@@ -16,7 +16,24 @@
       "Bash(gh auth *)",
       "Bash(git --version)",
       "Bash(gh repo *)",
-      "Bash(python3 \"D:/Claude/3kimbrandesign/update_works.py\")"
+      "Bash(python3 \"D:/Claude/3kimbrandesign/update_works.py\")",
+      "Bash(python update_testimonials.py)",
+      "Bash(python update_works_v2.py)",
+      "Bash(python update_avatars.py)",
+      "Bash(python fix_avatars.py)",
+      "Bash(python update_works_v3.py)",
+      "Bash(python rebuild_works.py)",
+      "Bash(python fix_works_animations.py)",
+      "Bash(python update_faqs.py)",
+      "Bash(python -c ' *)",
+      "Bash(python update_contact.py)",
+      "Bash(python -c \"from PIL import Image; print\\('Pillow OK'\\)\")",
+      "Bash(python -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(python optimize_images.py)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(findstr :8080)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
