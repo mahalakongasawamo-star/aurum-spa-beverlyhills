@@ -33,7 +33,9 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(findstr :8080)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(rm D:/Claude/3kimbrandesign/.git/index.lock)"
     ]
   }
 }
