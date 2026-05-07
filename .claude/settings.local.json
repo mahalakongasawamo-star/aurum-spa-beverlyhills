@@ -35,7 +35,11 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(rm D:/Claude/3kimbrandesign/.git/index.lock)"
+      "Bash(rm D:/Claude/3kimbrandesign/.git/index.lock)",
+      "Bash(node *)",
+      "Bash(cd /d D:\\\\Claude\\\\3kimbrandesign)",
+      "Bash(npx --yes impeccable --json index.html)",
+      "Bash(awk 'NR==241,NR==374' \"D:\\\\Claude\\\\3kimbrandesign\\\\index.html\")"
     ]
   }
 }

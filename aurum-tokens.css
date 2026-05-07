@@ -1,0 +1,48 @@
+/* Aurum Spa & Aesthetics — design tokens & brand overrides
+ * Single source of truth for brand colors, font sizes, and unified title typography.
+ * Linked from index.html. Edit values here to update site-wide.
+ */
+:root {
+  /* Aurum brand colors */
+  --color-gold:        #C9A96E;
+  --color-gold-deep:   #B8964F;
+  --color-gold-light:  #F5D78E;
+  --color-cream-bg:    #FAF6E8;
+  --color-cream-card:  #F5EDD9;
+  --color-deep:        #1A1208;
+  /* Aurum supplemental font sizes (non-responsive, fixed) */
+  --font-size--aurum-xxs:     0.7rem;
+  --font-size--aurum-x:       0.8rem;
+  --font-size--aurum-sm:      0.85rem;
+  --font-size--aurum-md:      0.95rem;
+  --font-size--aurum-base:    1rem;
+  --font-size--aurum-lg:      1.9rem;
+  --font-size--aurum-display: clamp(3rem, 7vw, 9rem);
+}
+
+/* ─────────────────────────────────────────────────────────────
+ * Unified section title typography — Marcellus everywhere
+ * Replaces DM Sans defaults AND Testimonia ornate overrides
+ * with a consistent classic-serif luxury voice for all section
+ * titles, matching the hero h1.
+ *
+ * Testimonia (--font-secondary) is reserved for the AURUM
+ * signature SVG and other accent moments — not body headings.
+ * ───────────────────────────────────────────────────────────── */
+.service h3,
+.works h2,
+.work h3 strong,
+.testimonies h2,
+.team__description h2,
+.club h2,
+.aurum-journey h2,
+.faqs h2,
+.faqs h2 span,
+.c-heading {
+  font-family: var(--font-tertiary) !important;
+}
+
+/* About h2 keeps Testimonia (script) as a deliberate accent moment. */
+.about h2 {
+  font-family: var(--font-secondary) !important;
+}
