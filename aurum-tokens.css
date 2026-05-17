@@ -46,3 +46,83 @@
 .about h2 {
   font-family: var(--font-secondary) !important;
 }
+
+/* ─────────────────────────────────────────────────────────────
+ * Typography rhythm tokens
+ * ───────────────────────────────────────────────────────────── */
+:root {
+  --line-height-body: 1.7;
+  --line-height-heading: 1.2;
+  --letter-spacing-heading: 0.02em;
+  --letter-spacing-eyebrow: 0.18em;
+  /* Higher-contrast gold for AA-compliant text on cream when needed */
+  --color-gold-contrast: #8B7942;
+}
+
+body { line-height: var(--line-height-body); }
+
+/* ─────────────────────────────────────────────────────────────
+ * :focus-visible — keyboard navigation accessibility
+ * Global gold ring; never appears on mouse clicks.
+ * ───────────────────────────────────────────────────────────── */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-gold) !important;
+  outline-offset: 3px !important;
+  border-radius: 2px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+ * prefers-reduced-motion — disable animations & transitions
+ * for users who request reduced motion (WCAG 2.3.3).
+ * ───────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+ * prefers-contrast: more — fallback to deeper gold for users
+ * who request high contrast (gold #C9A96E on cream is borderline
+ * for WCAG AA at body text sizes).
+ * ───────────────────────────────────────────────────────────── */
+@media (prefers-contrast: more) {
+  :root {
+    --color-gold: #8B7942;
+    --color-gold-deep: #6F5F33;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+ * Skip link — keyboard users land here first.
+ * ───────────────────────────────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--color-deep);
+  color: var(--color-cream-bg);
+  padding: 12px 20px;
+  text-decoration: none;
+  font-family: var(--font-tertiary, serif);
+  letter-spacing: var(--letter-spacing-eyebrow);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  z-index: 9999;
+}
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+}

@@ -1,0 +1,72 @@
+# Aurum Spa & Aesthetics
+
+> Beverly Hills' premier luxury med spa and day spa on Wilshire Boulevard, offering bespoke half-day and full-day signature wellness retreats with medical-grade aesthetics, advanced recovery, and stress relief for executives, performers, and discerning travelers.
+
+## Business
+
+- Name: Aurum Spa & Aesthetics
+- Address: 9500 Wilshire Blvd, Beverly Hills, CA 90212, United States
+- Email: hello@aurumspaBH.com
+- Website: https://aurumspaBH.com/
+- Price range: $625 – $1,350 per signature retreat
+- Positioning: Quiet luxury. Clinical precision meets restorative luxury. WCAG 2.1 AA accessible.
+- Audience: High-performing executives, Hollywood professionals, visiting executives, long-term Beverly Hills residents, discerning travelers.
+
+## Signature Retreats
+
+- Aurum Half-Day Retreat — from $625
+- Aurum Full-Day Retreat — from $1,350
+
+Pricing varies by selection and customization. Every visit begins with a private consultation.
+
+## Services
+
+Aurum is staffed by board-certified medical professionals, licensed master estheticians, certified massage therapists, and wellness practitioners.
+
+### Aesthetics (medical-grade)
+
+- Botox & Neurotoxins — expertly placed neuromodulators
+- Dermal Fillers — hyaluronic acid filler treatments
+- Chin & Jawline contouring
+- Lip Fillers
+- Dysport
+- Microneedling (with optional PRP)
+- PRP Facials
+- Chemical Peels
+- Pigment Removal
+
+### Laser & Light
+
+- Laser Hair Removal
+- IPL (Intense Pulsed Light)
+- Pigment Removal
+- Precision Treatments
+
+### Spa & Wellness
+
+- HydraFacial
+- Deep Tissue Massage
+- Lymphatic Drainage
+- Anti-Aging Facials (including signature Gold Facials)
+- Body Sculpting
+
+## Brand principles
+
+- Clinical Mastery: every medical aesthetic treatment is performed or directly supervised by licensed, credentialed medical professionals.
+- The Personal Protocol: no two clients are the same. Every visit begins with a private consultation before any treatment is designed.
+- Absolute Discretion: privacy and confidentiality are a foundational principle, not a footnote.
+
+## Key pages
+
+- [Homepage](https://aurumspaBH.com/): full overview of the brand, services, signature retreats, and booking.
+- [About](https://aurumspaBH.com/#about): founding story, team philosophy, Wilshire Boulevard location.
+- [Aesthetics](https://aurumspaBH.com/#services): medical-grade aesthetic services overview.
+- [Spa & Wellness](https://aurumspaBH.com/#works): full treatment catalog with imagery.
+- [Signature Experiences](https://aurumspaBH.com/#team): half-day and full-day curated journeys.
+- [Book a Visit](https://aurumspaBH.com/#club): booking and contact.
+- [Contact](https://aurumspaBH.com/#contact): hello@aurumspaBH.com
+
+## Optional
+
+- [Brand brief (PRODUCT.md)](https://aurumspaBH.com/PRODUCT.md): full brand philosophy and design principles.
+- [Onboarding guide (ONBOARDING.md)](https://aurumspaBH.com/ONBOARDING.md): non-technical content designer guide.
